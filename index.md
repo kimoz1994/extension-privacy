@@ -1,6 +1,6 @@
 # Privacy Policy for YouTube Summarizer
 
-_Last updated: 2026-10-21_
+_Last updated: 2026-11-02_
 
 YouTube Summarizer is a Chrome extension that gives you a one-click TL;DR and
 timestamped key takeaways for any YouTube video. This policy explains what the
@@ -38,6 +38,11 @@ The extension makes requests to exactly three kinds of destinations:
    produce your summary; checks and restores your Pro entitlement; opens the
    Pro checkout. The captions are forwarded to our AI provider to generate the
    summary and are not kept beyond that request.
+   For abuse prevention only, the API's web server also sees the IP address
+   your request comes from (as every web server does) and keeps a per-day
+   counter of requests for it, which automatically expires after about a day.
+   It is never combined with anything else to identify, profile, or contact
+   you.
 3. **Paddle (checkout)** — when you buy Pro, the checkout page is operated by
    Paddle, our merchant of record. Your payment details go to Paddle only — the
    extension never sees your card. We receive only the subscription status.
